@@ -28,10 +28,16 @@ Use getFinals to do the following:
 hint - you should be looking at the stage key inside of the objects
 */
 
-function getFinals(/* code here */) {
-   /* code here */
-}
+function getFinals(fifaData) {
+    
+    let finals = fifaData.filter(item => item.Stage==='Final');
 
+
+    for(let i=0;i<finals.length;i++){
+            console.log(finals[i]);
+    }
+    return finals;
+}
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
