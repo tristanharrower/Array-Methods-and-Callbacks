@@ -55,7 +55,7 @@ Use the higher-order function getWinners to do the following:
 
 function getWinners(/* code here */) {
     /* code here */
-    // use win condition
+    // use compare home team goals to away team goals
 }
 
 
@@ -82,7 +82,7 @@ Use the higher order function getAverageGoals to do the following:
  2. Return the the average number of the total home team goals and away team goals scored per match and round to the second decimal place. 
  
  (Hint: use .reduce and do this in 2 steps) 
- 
+ // use toFixed(2)
  Example of invocation: getAverageGoals(getFinals(fifaData));
 */
 
